@@ -1,0 +1,15 @@
+<div class="container mt-4">
+<app-basket-summary
+[isBasket]="false"
+[items]="(basket$ | async).items"></app-basket-summary>
+</div>
+<div
+  class="float-none d-flex justify-content-between flex-column flex-lg-row mb-5"
+>
+  <button class="btn-outline-success" cdkStepperPrevious>
+    <i class="fa fa-angle-double-left"></i>
+  </button>
+  <button class="btn-primary" (click)="createPaymentIntent()">
+    <i class="fa  fa-angle-double-right"></i>
+  </button>
+</div>

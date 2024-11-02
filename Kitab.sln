@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitab.WebAPI", "Kitab.API\Kitab.WebAPI.csproj", "{28B4A09E-CA08-443B-9E92-CAEBDF5F25CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitab.Entities", "Kitab.Entities\Kitab.Entities.csproj", "{F56CE6C7-7855-4B6B-A702-E3B2739A596A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitab.DataAccess", "Kitab.DataAccess\Kitab.DataAccess.csproj", "{8E438A9E-716E-4F2B-BF6D-74E229A436FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{483697BE-F1CF-4846-B869-974C10E1C927}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitab.DataTransferObject", "Kitab.DataTransferObject\Kitab.DataTransferObject.csproj", "{8D88D246-32E1-4D62-A3F6-2183A5096344}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kitab.Util", "Kitab.Util\Kitab.Util.csproj", "{0F4A0F90-C1AF-40C9-91E5-2A6B09466272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28B4A09E-CA08-443B-9E92-CAEBDF5F25CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B4A09E-CA08-443B-9E92-CAEBDF5F25CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B4A09E-CA08-443B-9E92-CAEBDF5F25CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B4A09E-CA08-443B-9E92-CAEBDF5F25CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56CE6C7-7855-4B6B-A702-E3B2739A596A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56CE6C7-7855-4B6B-A702-E3B2739A596A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56CE6C7-7855-4B6B-A702-E3B2739A596A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56CE6C7-7855-4B6B-A702-E3B2739A596A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E438A9E-716E-4F2B-BF6D-74E229A436FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E438A9E-716E-4F2B-BF6D-74E229A436FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E438A9E-716E-4F2B-BF6D-74E229A436FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E438A9E-716E-4F2B-BF6D-74E229A436FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D88D246-32E1-4D62-A3F6-2183A5096344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D88D246-32E1-4D62-A3F6-2183A5096344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D88D246-32E1-4D62-A3F6-2183A5096344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D88D246-32E1-4D62-A3F6-2183A5096344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4A0F90-C1AF-40C9-91E5-2A6B09466272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4A0F90-C1AF-40C9-91E5-2A6B09466272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4A0F90-C1AF-40C9-91E5-2A6B09466272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4A0F90-C1AF-40C9-91E5-2A6B09466272}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE9BAFAA-BAD8-40CE-B58E-7C4E78A399D4}
+	EndGlobalSection
+EndGlobal

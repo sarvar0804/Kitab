@@ -1,0 +1,18 @@
+[
+  {
+    "Id": 1,
+    "Name": "Dünya Klasikleri Kitapları"
+  },
+  {
+    "Id": 2,
+    "Name": "Roman Kitapları"
+  },
+  {
+    "Id": 3,
+    "Name": "Gençlik Kitapları"
+  },
+  {
+    "Id": 4,
+    "Name": "Tarih Kitapları"
+  }
+]

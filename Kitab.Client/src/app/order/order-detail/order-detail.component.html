@@ -1,0 +1,17 @@
+<div class="container ml-5 mt-5">
+  <div class="row" *ngIf="order">
+    <div class="col-8">
+      <app-basket-summary
+        [isBasket]="false"
+        [isOrder]="true"
+        [items]="order.orderItems"
+      ></app-basket-summary>
+    </div>
+    <div class="col-4">
+    <app-order-total
+    [shippingPrice]="order.shippingPrice"
+    [subTotal]="order.subtotal"
+    [total]="order.total"></app-order-total>
+    </div>
+  </div>
+</div>

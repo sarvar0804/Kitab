@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Name": "İş Bankası Kültür Yayınları"
+  },
+  {
+    "Id": 2,
+    "Name": "Yapı Kredi Yayınları"
+  },
+  {
+    "Id": 3,
+    "Name": "Everest Yayınları"
+  },
+  {
+    "Id": 4,
+    "Name": "React"
+  },
+  {
+    "Id": 5,
+    "Name": "Can Yayınları"
+  },
+  {
+    "Id": 6,
+    "Name": "Pegasus Yayınları"
+  }
+]
