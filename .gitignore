@@ -340,4 +340,4 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
-Camekan.API/appsettings.json
+Kitab.API/appsettings.json

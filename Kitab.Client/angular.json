@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Camekan": {
+    "Kitab": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Camekan",
+            "outputPath": "dist/Kitab",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Camekan:build"
+            "browserTarget": "Kitab:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Camekan:build:production"
+              "browserTarget": "Kitab:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Camekan:build"
+            "browserTarget": "Kitab:build"
           }
         },
         "test": {
@@ -121,18 +121,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Camekan:serve"
+            "devServerTarget": "Kitab:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Camekan:serve:production"
+              "devServerTarget": "Kitab:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "Camekan",
+  "defaultProject": "Kitab",
   "cli": {
     "analytics": "c3ac5b5a-e070-4e6b-99f2-b2d1751db7d1"
   }

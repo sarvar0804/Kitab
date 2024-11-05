@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Camekan
+namespace Kitab
 {
     class Program
     {
